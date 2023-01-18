@@ -26,6 +26,5 @@ jobs:
       uses: docker/build-push-action@v3.3.0
       with:
         file: TechRiders2023/Dockerfile
-        tags: $(date +%s)
         push: true
     
