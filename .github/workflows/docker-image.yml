@@ -27,4 +27,4 @@ jobs:
       with:
         file: TechRiders2023/Dockerfile
         push: true
-    
+        tags: user/app:latest
